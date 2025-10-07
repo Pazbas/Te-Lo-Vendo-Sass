@@ -1,12 +1,8 @@
 Se utiliza metodología BEM
-Se realiza landing page con una página adicional test.html para probar funciones del menú.
-Se crea nueva sección de ayuda (help.html) en la barra de navegación, para agregar un formulario de contacto.
-
-
-
+Se crea estructura de proyecto para Sass usando el patrón 7-1
 
 Realizado por Paz Bascuñan Giuliucci
-Julio 2025
+Octubre 2025
 
 
 
