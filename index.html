@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Te Lo Vendo</title>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <link rel="icon" href="/assets/img/otros/logo.ico" type="image/x-icon">
+</head>
+<body>
+
+  <header>
+
+ <div class="jumbotron" >
+  <div class="container d-flex justify-content-center align-items-center">
+    <div class="row">
+      <div class="col-md-7">
+        <img src="/assets/img/otros/logo.jpg" class="img-fluid" alt="logo">
+      </div>
+      <div class="col-md-5" >
+        <img src="/assets/img/otros/fotoheader.jpg" class="img-fluid" alt="logo"> </div>
+  </header>
+
+  
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar__brand" href="/index.html">Inicio</a>
+
+  <button class="navbar__toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" 
+    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar__toggler-icon navbar-toggler-icon"></span>
+  </button>
+
+  <div class="navbar__collapse collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar__menu navbar-nav me-auto">
+      
+      <li class="navbar__item nav-item dropdown">
+        <a class="navbar__link nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" 
+           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Categorías
+        </a>
+        <div class="navbar__dropdown-menu dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="navbar__dropdown-item dropdown-item" href="/html/hogar.html">Hogar</a>
+          <a class="navbar__dropdown-item dropdown-item" href="/html/moda.html">Moda</a>
+          <a class="navbar__dropdown-item dropdown-item" href="/html/deportes.html">Deportes</a>
+          <a class="navbar__dropdown-item dropdown-item" href="/html/tecnologia.html">Tecnología</a>
+        </div>
+      </li>
+
+      <li class="navbar__item nav-item navbar__item--active">
+        <a class="navbar__link nav-link" href="/html/ofertas.html">Ofertas</a>
+      </li>
+
+      <li class="navbar__item nav-item">
+        <a class="navbar__link nav-link" href="/html/novedades.html">Novedades</a>
+      </li>
+
+      <li class="navbar__item nav-item">
+        <a class="navbar__link nav-link" href="/html/masvendidos.html">Los más vendidos</a>
+      </li>
+
+       <li class="navbar__item nav-item">
+        <a class="navbar__link nav-link" href="/html/help.html">Ayuda</a>
+      </li>
+
+      <li class="navbar__item nav-item">
+        <a class="navbar__link nav-link" href="#">Mis compras</a>
+      </li>
+
+      <li class="navbar__item nav-item">
+        <button onclick="mostrarAlerta()" class="navbar__cart-button btn btn-outline-light">
+          <img src="/assets/img/otros/carrito.png" alt="Ver carrito" class="navbar__cart-icon img-fluid">
+        </button>
+      </li>
+    </ul>
+
+   
+    <form class="navbar__search d-flex" role="search">
+      <input class="navbar__search-input form-control me-2" type="search" placeholder="productos, marcas" aria-label="Buscar">
+      <button class="navbar__search-button btn btn-outline-primary" type="submit">Buscar</button>
+    </form>
+  </div>
+
+  <script src="/assets/js/scripts.js"></script>
+</nav>
+ 
+
+<br>
+<br>
+<main>
+
+
+  <article class="card border-primary mb-3"">
+    <div class="row g-0">
+      
+      <div class="col-md-4">
+       
+          <img src="/assets/img/otros/about.jpg" class="img-fluid rounded-start" alt="Equipo de trabajo representando quiénes somos">
+        
+      </div>
+
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Quiénes somos</h5>
+          <p class="card-text">
+            Nuestro marketplace brinda todo lo que nuestros clientes demandan hoy: soluciones instantáneas, acceso a una mayor oferta de productos en un mismo espacio, flexibilidad en los medios de pago y la comodidad de acceder a los productos desde cualquier lugar, en cualquier momento y a través de cualquier dispositivo.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </article>
+<br>
+<br>
+
+
+
+
+
+<section class="products">
+  <div class="products__grid row row-cols-1 row-cols-md-2 g-4">
+
+    <div class="products__column col">
+      <div class="products__list card border-0">
+
+        <div class="products__items card-group row row-cols-1 row-cols-md-2 g-4">
+
+          <article class="product card border-0">
+            <img class="product__image card-img-top" src="/assets/img/tecnologia/roku_express.jpg" alt="Dispositivo de streaming Roku Express">
+            <div class="product__body card-body">
+              <h2 class="product__title card-title h5">Roku Express</h2>
+              <p class="product__text card-text">Accede a series y películas en plataformas como Netflix, Disney+, Prime Video y muchas otras.</p>
+            </div>
+          </article>
+    
+          <article class="product card border-0">
+            <img class="product__image card-img-top" src="/assets/img/tecnologia/proyector_portatil.jpg" alt="Proyector portátil HY320 4K">
+            <div class="product__body card-body">
+              <h2 class="product__title card-title h5">Proyector portátil</h2>
+              <p class="product__text card-text">El proyector HY320 ofrece una calidad de imagen asombrosa con resolución 1080P y soporte para video 4K.</p>
+            </div>
+          </article>
+
+          <article class="product card border-0">
+            <img class="product__image card-img-top" src="/assets/img/tecnologia/mini_dron.jpg" alt="Mini dron con cámara 4K">
+            <div class="product__body card-body">
+              <h2 class="product__title card-title h5">Mini Dron</h2>
+              <p class="product__text card-text">Posee una cámara aérea de 40 megapíxeles que puede grabar video en 4K con resolución cuádruple HD.</p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </div>
+
+
+    <div class="products__column col">
+      <aside class="products__banner card border-0">
+        <img src="/assets/img/tecnologia/banner_tecnologia.jpg" class="products__image card-img-top" alt="Banner promocional de tecnología">
+        <div class="products__body card-body d-flex justify-content-center">
+           <a class="categories__button btn btn-outline-primary me-md-2" a href="/html/tecnologia.html" role="button">Ver más</a>
+     </div>
+      </aside>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+<br>
+
+<section class="categories row row-cols-1 row-cols-md-2 g-4">
+
+ 
+  <article class="categories__card col" id="moda">
+    <div class="card border-primary categories__item">
+      <img src="/assets/img/otros/moda.jpg" class="card-img-top categories__image" alt="Mujeres probando ropa">
+      <div class="card-body categories__body">
+        <h5 class="card-title categories__title">Lo último en tendencias</h5>
+        <a class="categories__button btn btn-outline-primary me-md-2" a href="/html/moda.html" role="button">Ver más</a>
+     </div>
+    </div>
+  </article>
+
+
+  <article class="categories__card col" id="deportes">
+    <div class="card border-primary categories__item">
+      <img src="/assets/img/otros/deporte.jpg" class="card-img-top categories__image" alt="Personas practicando running">
+      <div class="card-body categories__body">
+        <h5 class="card-title categories__title">Todo en deporte</h5>
+        <a class="categories__button btn btn-outline-primary me-md-2" a href="/html/deportes.html" role="button">Ver más</a>
+      </div>
+    </div>
+  </article>
+
+</section>
+ 
+
+<br>
+<br>
+
+<div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col" id="hogar">
+    <div class="card border-primary">
+      <img src="/assets/img/otros/hogar.jpg" class="card-img-top" alt="hogar">
+      <div class="card-body">
+        <h5 class="card-title">Lo mejor para equipar tu casa</h5>
+     <a class="categories__button btn btn-outline-primary me-md-2" a href="/html/hogar.html" role="button">Ver más</a>
+     </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card border-0">
+   <div class="card-group row row-cols-1 row-cols-md-2 g-4">
+  <div class="card  border-0">
+    <img class="card-img-top" src="/assets/img/hogar/licuadora_multifuncional.jpg" alt="licuadora_multifuncional">
+    <div class="card-body">
+      <h5 class="card-title">Licuadora muntifuncional marca Oster</h5>
+      <p class="product__text card-text">Para triturar ingredientes duros y lograr mezclas suaves y homogéneas.</p>
+          </div>
+  </div>
+  <div class="card  border-0">
+    <img class="card-img-top" src="/assets/img/hogar/lavadora_samsung.jpg" alt="lavadora_samsung">
+    <div class="card-body">
+      <h5 class="card-title">Lavadora marca Samsung</h5>
+         <p class="product__text card-text">Su tecnología Eco Bubble garantiza un lavado profundo y cuidadoso de tus prendas</p>
+            </div>
+  </div>
+  <div class="card  border-0">
+    <img class="card-img-top" src="/assets/img/hogar/aspiradora_thomas.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Aspiradora marca Thomas</h5>
+     <p class="product__text card-text">Perfecta para limpiar pisos duros, alfombras y rincones.</p>
+    </div>
+  </div>
+
+</div> 
+</div>
+     </div>
+    </div>
+  </div>
+ 
+</div>
+<br>
+<br>
+<br>
+
+
+
+<section class="technology-products row row-cols-1 row-cols-md-2 g-4"></section>
+<div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="technology-products__col" id="tecnologia">
+    <div class="technology-products__grid card border-0">
+   <div class="technology-products__list card-group row row-cols-1 row-cols-md-2 g-4">
+  <div class="technology-products__card card border-0">
+    <img class="technology-products__image card-img-top" src="/assets/img/tecnologia/notebook_asus.jpg" alt="Notebook marca Asus">
+          <div class="technology-products__body card-body">
+      <h5 class="card-title">Notebook marca Assus</h5>
+     <p class="product__text card-text">Con sensor de huellas dactilares, carga rápida y pantalla táctil.</p>
+           </div>
+  </div>
+  <div class="technology-products__card card border-0">
+          <img class="technology-products__image card-img-top" src="/assets/img/tecnologia/nintendo_switch_2.jpg" alt="Consola Nintendo Switch 2">
+          <div class="technology-products__body card-body">
+      <h5 class="card-title">Nintendo Switch 2</h5>
+  <p class="product__text card-text">Con procesador NVIDIA personalizado que ofrece un rendimiento mejorado y gráficos más detallados. </p></div>
+  </div>
+  <div class="technology-products__card card border-0">
+          <img class="technology-products__image card-img-top" src="/assets/img/tecnologia/audifono_bluetooth.jpg" alt="Audífonos Bluetooth inalámbricos">
+          <div class="technology-products__body card-body">
+      <h5 class="card-title">Audifono bluetooth</h5>
+      <p class="product__text card-text">Con control de volúmen, manos libres y cancelación de ruido activa.</p>
+         </div>
+  </div>
+
+</div> 
+
+</div>
+
+     </div>
+   <aside class="technology-products__col col">
+    <div class="technology-products__highlight card border-primary">
+      <img src="/assets/img/otros/tecnologia.jpg" class="technology-products__image card-img-top" alt="Ofertas en tecnología">
+      <div class="technology-products__body card-body">
+        <h5 class="technology-products__title card-title">Los precios más competitivos en tecnología</h5>
+       <a class="categories__button btn btn-outline-primary me-md-2" a href="/html/tecnologia.html" role="button">Ver más</a>
+     </div>
+    </div>
+  </aside>
+
+</section>
+
+</main>
+
+
+
+
+  <br>
+
+
+ 
+
+
+
+</main>
+
+
+
+
+<br>
+
+
+ 
+
+
+
+
+
+<footer>
+   <div class="social__media justify-content-center">Visita nuestras redes sociales
+  <br>
+  <br>
+   <div class="container">
+      <div class="row footer__social-row">
+        <div class="col-md-3"></div>
+        <div class="col md-2">
+          <a href="#" class="footer__social-link">
+            <img src="/assets/img/otros/instagramlogo.jpg" alt="instagram" class="footer__social-icon">
+          </a>
+        </div>
+        <div class="col md-2">
+          <a href="#" class="footer__social-link">
+            <img src="/assets/img/otros/facebooklogo.jpg" alt="facebook" class="footer__social-icon">
+          </a>
+        </div>
+        <div class="col md-">
+          <a href="#" class="footer__social-link">
+            <img src="/assets/img/otros/xlogo.jpg" alt="x" class="footer__social-icon">
+          </a>
+        </div>
+        <div class="col-md-3"></div>
+      </div>
+    </div>
+</div> 
+<br>
+        <div class="footer">
+        <div class="footer__image-container">
+            <img class="footer__image" src="/assets/img/otros/logosm.jpg" alt="Imagen del Footer">
+        </div class="footer__text-container">
+        <p">© 2025 Te lo vendo. Todos los derechos reservados.</p>
+    </div>
+
+ 
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -1,0 +1,110 @@
+body {
+  background-color: #fef9f4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Verdana", sans-serif;
+  line-height: 1.6;
+  padding: 20px;
+  background-repeat: round;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: auto;
+}
+
+.heading--secondary {
+  color: #000000;
+}
+
+footer {
+  justify-content: center;
+  text-align: center;
+  margin-top: 15px;
+  padding: 15px;
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 8px;
+}
+
+.footer__text-container {
+  text-align: center;
+  color: #000000;
+}
+
+.header {
+  background-color: #ffffff;
+  padding: 30px;
+  text-align: center;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.jumbotron {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.main {
+  background-color: #ffffff;
+  color: #0D6EFD;
+  padding: 10px;
+  border-radius: 1px;
+  margin: 1px;
+}
+
+.main__link {
+  color: #0D6EFD;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: normal;
+}
+
+.main__link:hover {
+  color: #0D6EFD;
+}
+
+nav {
+  background-color: #0D6EFD;
+  padding: 15px;
+  text-align: center;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #0D6EFD;
+}
+
+.nav-item a {
+  color: #000000;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+.nav-item a:hover {
+  color: #0D6EFD;
+}
+
+.navbar__brand {
+  color: #000000;
+}
+
+.navbar__brand a:hover {
+  color: #0D6EFD;
+}/*# sourceMappingURL=main.css.map */
